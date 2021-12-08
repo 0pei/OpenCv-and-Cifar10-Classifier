@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>304</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="GBimageProcessing">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>281</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>VGG 16 TEST</string>
+    </property>
+    <widget class="QPushButton" name="btnShowTrainImages">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>230</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">text-align:center;</string>
+     </property>
+     <property name="text">
+      <string>1. Show Train Images</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnShowHyperParameter">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>75</y>
+       <width>230</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">text-align:center;</string>
+     </property>
+     <property name="text">
+      <string>2. Show HyperParameter</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnShowModelShortcut">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>120</y>
+       <width>230</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">text-align:center;</string>
+     </property>
+     <property name="text">
+      <string>3. Show Model Shortcut</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnShowAccuracy">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>165</y>
+       <width>230</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">text-align:center;</string>
+     </property>
+     <property name="text">
+      <string>4. Show Accuracy</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnTest">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>255</y>
+       <width>230</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">text-align:center;</string>
+     </property>
+     <property name="text">
+      <string>5. Test</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="teChooseData">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>210</y>
+       <width>230</width>
+       <height>30</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>304</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
